@@ -1,0 +1,21 @@
+{
+  "name": "blogapp",
+  "version": "1.0.0",
+  "description": "App from JS Core Exam on 20.08.2017",
+  "main": "app.js",
+  "dependencies": {
+    "handlebars": "^4.0.10",
+    "jquery": "^3.2.1",
+    "sammy": "^0.7.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "BlogAppForJSCore"
+  },
+  "author": "Atanas Nikolov",
+  "license": "MIT"
+}
