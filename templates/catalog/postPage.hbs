@@ -1,0 +1,13 @@
+{{> header}}
+
+<main>
+    {{> home}}
+    {{#each articles}}
+        {{>article}}
+    {{else}}
+        <p>No posts in database.</p>
+    {{/each}}
+    </div>
+</main>
+
+{{> footer}}

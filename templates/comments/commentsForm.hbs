@@ -1,0 +1,11 @@
+<section id="viewComments">
+
+    <article class="post post-content">
+        <p>{{content}}</p>
+        <div class="info">
+            submitted {{dayBefore}} ago by {{author}} |
+            {{#if isAuthor}}<a href="#/deleteCom/:{{_id}}" class="deleteLink" data="{{postId}}">delete</a>{{/if}}
+        </div>
+    </article>
+
+</section>

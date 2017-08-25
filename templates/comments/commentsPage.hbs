@@ -1,0 +1,14 @@
+{{> header}}
+
+<main>
+    {{> home}}
+    {{>postForm}}
+    {{#each comments}}
+        {{>comment}}
+        {{else}}
+            <p>No comments in database.</p>
+        {{/each}}
+    </div>
+</main>
+
+{{> footer}}
